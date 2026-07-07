@@ -145,48 +145,6 @@ sql/customer_churn_business_questions.sql
 
 ---
 
-## Repository Structure
-
-```text
-retentioniq-telecom-churn-intelligence/
-│
-├── README.md
-├── assets/
-│   ├── dashboard_overview.png
-│   ├── churn_prediction_page.png
-│   ├── churn_rate_by_contract.png
-│   ├── top_state_churn.png
-│   ├── churn_categories.png
-│   ├── predicted_churners_by_state.png
-│   ├── confusion_matrix.png
-│   ├── model_feature_importance.png
-│   └── project_workflow.png
-│
-├── docs/
-│   ├── RetentionIQ_Project_Report.docx
-│   └── RetentionIQ_Project_Report.pdf
-│
-└── sql/
-    └── customer_churn_business_questions.sql
-```
-
-Suggested folders to add when pushing the complete project:
-
-```text
-data/
-├── Customer_Data.csv
-├── data_for_prediction.xlsx
-└── predicted_data.csv
-
-notebooks/
-└── Churn_Prediction.ipynb
-
-powerbi/
-└── churn_analysis.pbix
-```
-
----
-
 ## How to Reproduce
 
 ### 1. Load data into SQL Server
@@ -236,13 +194,3 @@ Update the file paths in `Churn_Prediction.ipynb`, train the Random Forest model
 - Add campaign response data to measure retention ROI.
 
 ---
-
-## Resume-Ready Summary
-
-Built an end-to-end telecom churn analytics solution using **SQL Server, Power BI, and Python**. Cleaned and transformed customer data in SQL, designed executive churn dashboards in Power BI, and trained a Random Forest model with **84% holdout accuracy** to predict at-risk customers. Delivered churn segmentation, revenue-at-risk analysis, and actionable retention recommendations for proactive customer management.
-
-
-Industry-standard project report, Word	RetentionIQ_Project_Report.docx
-Industry-standard project report, PDF	RetentionIQ_Project_Report.pdf
-SQL Server business questions script	customer_churn_business_questions.sql
-Complete GitHub-ready package with README, assets, report, and SQL	retentioniq-telecom-churn-intelligence.zip
