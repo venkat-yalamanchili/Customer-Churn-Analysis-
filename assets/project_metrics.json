@@ -1,0 +1,370 @@
+{
+  "metrics": {
+    "total_customers": 6418,
+    "stayed": 4275,
+    "churned": 1732,
+    "joined": 411,
+    "churn_rate_all": 0.26986600186974136,
+    "churn_rate_historical": 0.28833028133843847,
+    "revenue_churned": 3411960.58,
+    "revenue_total": 19471390.410000004,
+    "predicted_churners": 380,
+    "predicted_monthly_charge_sum": 16234.29997253418,
+    "predicted_total_revenue_sum": 43121.349840164185,
+    "predicted_referrals_sum": 2775
+  },
+  "segments": {
+    "Gender": [
+      {
+        "Gender": "Female",
+        "total": 4048,
+        "churned": 1111,
+        "revenue_lost": 2374389.4699999997,
+        "churn_rate": 0.27445652173913043
+      },
+      {
+        "Gender": "Male",
+        "total": 2370,
+        "churned": 621,
+        "revenue_lost": 1037571.11,
+        "churn_rate": 0.2620253164556962
+      }
+    ],
+    "Age_Group": [
+      {
+        "Age_Group": "> 50",
+        "total": 2729,
+        "churned": 861,
+        "revenue_lost": 1826542.9899999998,
+        "churn_rate": 0.3155001832172957
+      },
+      {
+        "Age_Group": "36-50",
+        "total": 1786,
+        "churned": 423,
+        "revenue_lost": 804574.6799999999,
+        "churn_rate": 0.23684210526315788
+      },
+      {
+        "Age_Group": "20-35",
+        "total": 1786,
+        "churned": 421,
+        "revenue_lost": 716746.7,
+        "churn_rate": 0.23572228443449048
+      },
+      {
+        "Age_Group": "< 20",
+        "total": 117,
+        "churned": 27,
+        "revenue_lost": 64096.21,
+        "churn_rate": 0.23076923076923078
+      }
+    ],
+    "Contract": [
+      {
+        "Contract": "Month-to-Month",
+        "total": 3286,
+        "churned": 1529,
+        "revenue_lost": 2290208.27,
+        "churn_rate": 0.4653073645769933
+      },
+      {
+        "Contract": "One Year",
+        "total": 1413,
+        "churned": 156,
+        "revenue_lost": 791933.9099999999,
+        "churn_rate": 0.11040339702760085
+      },
+      {
+        "Contract": "Two Year",
+        "total": 1719,
+        "churned": 47,
+        "revenue_lost": 329818.39999999997,
+        "churn_rate": 0.027341477603257707
+      }
+    ],
+    "Payment_Method": [
+      {
+        "Payment_Method": "Mailed Check",
+        "total": 349,
+        "churned": 132,
+        "revenue_lost": 83000.73999999999,
+        "churn_rate": 0.37822349570200575
+      },
+      {
+        "Payment_Method": "Bank Withdrawal",
+        "total": 3575,
+        "churned": 1231,
+        "revenue_lost": 2557416.13,
+        "churn_rate": 0.3443356643356643
+      },
+      {
+        "Payment_Method": "Credit Card",
+        "total": 2494,
+        "churned": 369,
+        "revenue_lost": 771543.71,
+        "churn_rate": 0.14795509222133119
+      }
+    ],
+    "Internet_Type": [
+      {
+        "Internet_Type": "Fiber Optic",
+        "total": 2764,
+        "churned": 1136,
+        "revenue_lost": 2782240.6100000003,
+        "churn_rate": 0.4109985528219971
+      },
+      {
+        "Internet_Type": "Cable",
+        "total": 762,
+        "churned": 196,
+        "revenue_lost": 286258.73,
+        "churn_rate": 0.2572178477690289
+      },
+      {
+        "Internet_Type": "DSL",
+        "total": 1502,
+        "churned": 291,
+        "revenue_lost": 300604.99,
+        "churn_rate": 0.19374167776298268
+      },
+      {
+        "Internet_Type": "None",
+        "total": 1390,
+        "churned": 109,
+        "revenue_lost": 42856.25,
+        "churn_rate": 0.07841726618705036
+      }
+    ],
+    "Tenure_Group": [
+      {
+        "Tenure_Group": ">= 24 Months",
+        "total": 2087,
+        "churned": 574,
+        "revenue_lost": 1171075.1,
+        "churn_rate": 0.27503593675131766
+      },
+      {
+        "Tenure_Group": "18-24 Months",
+        "total": 980,
+        "churned": 267,
+        "revenue_lost": 520843.59,
+        "churn_rate": 0.2724489795918367
+      },
+      {
+        "Tenure_Group": "6-12 Months",
+        "total": 1296,
+        "churned": 352,
+        "revenue_lost": 743187.31,
+        "churn_rate": 0.2716049382716049
+      },
+      {
+        "Tenure_Group": "< 6 Months",
+        "total": 1058,
+        "churned": 279,
+        "revenue_lost": 484949.56000000006,
+        "churn_rate": 0.2637051039697543
+      },
+      {
+        "Tenure_Group": "12-18 Months",
+        "total": 997,
+        "churned": 260,
+        "revenue_lost": 491905.02,
+        "churn_rate": 0.26078234704112335
+      }
+    ],
+    "State": [
+      {
+        "State": "Jammu & Kashmir",
+        "total": 320,
+        "churned": 183,
+        "revenue_lost": 356443.45999999996,
+        "churn_rate": 0.571875
+      },
+      {
+        "State": "Assam",
+        "total": 139,
+        "churned": 53,
+        "revenue_lost": 108832.84,
+        "churn_rate": 0.381294964028777
+      },
+      {
+        "State": "Jharkhand",
+        "total": 113,
+        "churned": 39,
+        "revenue_lost": 71218.87,
+        "churn_rate": 0.34513274336283184
+      },
+      {
+        "State": "Chhattisgarh",
+        "total": 59,
+        "churned": 18,
+        "revenue_lost": 25593.36,
+        "churn_rate": 0.3050847457627119
+      },
+      {
+        "State": "Delhi",
+        "total": 127,
+        "churned": 38,
+        "revenue_lost": 77519.92,
+        "churn_rate": 0.2992125984251969
+      },
+      {
+        "State": "Odisha",
+        "total": 152,
+        "churned": 44,
+        "revenue_lost": 105522.04000000001,
+        "churn_rate": 0.2894736842105263
+      },
+      {
+        "State": "Kerala",
+        "total": 200,
+        "churned": 55,
+        "revenue_lost": 80249.55,
+        "churn_rate": 0.275
+      },
+      {
+        "State": "Rajasthan",
+        "total": 259,
+        "churned": 70,
+        "revenue_lost": 125965.62999999999,
+        "churn_rate": 0.2702702702702703
+      },
+      {
+        "State": "Puducherry",
+        "total": 41,
+        "churned": 11,
+        "revenue_lost": 50061.94,
+        "churn_rate": 0.2682926829268293
+      },
+      {
+        "State": "Haryana",
+        "total": 398,
+        "churned": 104,
+        "revenue_lost": 225588.78000000003,
+        "churn_rate": 0.2613065326633166
+      },
+      {
+        "State": "West Bengal",
+        "total": 368,
+        "churned": 96,
+        "revenue_lost": 226267.32,
+        "churn_rate": 0.2608695652173913
+      },
+      {
+        "State": "Bihar",
+        "total": 336,
+        "churned": 87,
+        "revenue_lost": 199103.62000000002,
+        "churn_rate": 0.25892857142857145
+      },
+      {
+        "State": "Andhra Pradesh",
+        "total": 395,
+        "churned": 101,
+        "revenue_lost": 211157.11999999997,
+        "churn_rate": 0.25569620253164554
+      },
+      {
+        "State": "Tamil Nadu",
+        "total": 600,
+        "churned": 153,
+        "revenue_lost": 289447.24,
+        "churn_rate": 0.255
+      },
+      {
+        "State": "Uttar Pradesh",
+        "total": 629,
+        "churned": 157,
+        "revenue_lost": 273154.20999999996,
+        "churn_rate": 0.24960254372019078
+      },
+      {
+        "State": "Telangana",
+        "total": 281,
+        "churned": 70,
+        "revenue_lost": 118415.31,
+        "churn_rate": 0.2491103202846975
+      },
+      {
+        "State": "Maharashtra",
+        "total": 504,
+        "churned": 115,
+        "revenue_lost": 218824.02,
+        "churn_rate": 0.22817460317460317
+      },
+      {
+        "State": "Punjab",
+        "total": 342,
+        "churned": 78,
+        "revenue_lost": 140014.51000000004,
+        "churn_rate": 0.22807017543859648
+      },
+      {
+        "State": "Karnataka",
+        "total": 470,
+        "churned": 107,
+        "revenue_lost": 189676.09999999998,
+        "churn_rate": 0.2276595744680851
+      },
+      {
+        "State": "Uttarakhand",
+        "total": 62,
+        "churned": 14,
+        "revenue_lost": 36841.270000000004,
+        "churn_rate": 0.22580645161290322
+      },
+      {
+        "State": "Madhya Pradesh",
+        "total": 288,
+        "churned": 65,
+        "revenue_lost": 153245.91,
+        "churn_rate": 0.22569444444444445
+      },
+      {
+        "State": "Gujarat",
+        "total": 335,
+        "churned": 74,
+        "revenue_lost": 128817.56,
+        "churn_rate": 0.2208955223880597
+      }
+    ],
+    "Churn_Category": [
+      {
+        "Churn_Category": "Competitor",
+        "total": 761,
+        "churned": 761,
+        "revenue_lost": 1514722.4699999997,
+        "churn_rate": 1.0
+      },
+      {
+        "Churn_Category": "Attitude",
+        "total": 301,
+        "churned": 301,
+        "revenue_lost": 551914.87,
+        "churn_rate": 1.0
+      },
+      {
+        "Churn_Category": "Dissatisfaction",
+        "total": 300,
+        "churned": 300,
+        "revenue_lost": 584119.42,
+        "churn_rate": 1.0
+      },
+      {
+        "Churn_Category": "Price",
+        "total": 196,
+        "churned": 196,
+        "revenue_lost": 415229.1,
+        "churn_rate": 1.0
+      },
+      {
+        "Churn_Category": "Other",
+        "total": 174,
+        "churned": 174,
+        "revenue_lost": 345974.72000000003,
+        "churn_rate": 1.0
+      }
+    ]
+  }
+}
